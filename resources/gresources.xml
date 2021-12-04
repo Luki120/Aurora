@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/me/luki/aurora">
+		<file preprocess="xml-stripblanks">ui/application_window.ui</file>
+		<file preprocess="xml-stripblanks">ui/configure_window.ui</file>
+		<file preprocess="xml-stripblanks">ui/vault_items_window.ui</file>
+		<file preprocess="xml-stripblanks">ui/vault_item_list_box_row.ui</file>
+	</gresource>
+</gresources>

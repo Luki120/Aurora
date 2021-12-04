@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+	<requires lib="gtk+" version="3.24"/>
+	<template class="AuroraConfigureWindow" parent="GtkWindow">
+		<property name="can-focus">False</property>
+		<child>
+			<!-- n-columns=2 n-rows=4 -->
+			<object class="GtkGrid">
+				<property name="visible">True</property>
+				<property name="can-focus">False</property>
+				<property name="margin-left">10</property>
+				<property name="margin-right">10</property>
+				<property name="margin-top">10</property>
+				<property name="margin-bottom">10</property>
+				<property name="row-spacing">10</property>
+				<property name="column-spacing">10</property>
+				<child>
+					<object class="GtkLabel" id="name_label">
+						<property name="visible">True</property>
+						<property name="can-focus">False</property>
+						<property name="label" translatable="yes">Name:</property>
+						<property name="xalign">1</property>
+					</object>
+					<packing>
+						<property name="left-attach">0</property>
+						<property name="top-attach">0</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkLabel" id="username_label">
+						<property name="visible">True</property>
+						<property name="can-focus">False</property>
+						<property name="margin-left">8</property>
+						<property name="label" translatable="yes">Username/Email:</property>
+						<property name="xalign">1</property>
+					</object>
+					<packing>
+						<property name="left-attach">0</property>
+						<property name="top-attach">1</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkEntry" id="name_text_entry">
+						<property name="visible">True</property>
+						<property name="can-focus">True</property>
+						<property name="hexpand">True</property>
+					</object>
+					<packing>
+						<property name="left-attach">1</property>
+						<property name="top-attach">0</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkEntry" id="username_text_entry">
+						<property name="visible">True</property>
+						<property name="can-focus">True</property>
+						<property name="hexpand">True</property>
+					</object>
+					<packing>
+						<property name="left-attach">1</property>
+						<property name="top-attach">1</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkLabel" id="notes_label">
+						<property name="visible">True</property>
+						<property name="can-focus">False</property>
+						<property name="label" translatable="yes">Notes:</property>
+						<property name="xalign">1</property>
+					</object>
+					<packing>
+						<property name="left-attach">0</property>
+						<property name="top-attach">2</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkTextView" id="notes_text_view">
+						<property name="visible">True</property>
+						<property name="can-focus">True</property>
+						<property name="hexpand">True</property>
+						<property name="vexpand">True</property>
+					</object>
+					<packing>
+						<property name="left-attach">1</property>
+						<property name="top-attach">2</property>
+					</packing>
+				</child>
+				<child>
+					<object class="GtkButtonBox" id="button_box">
+						<property name="visible">True</property>
+						<property name="can-focus">False</property>
+						<property name="halign">center</property>
+						<property name="spacing">10</property>
+						<property name="layout-style">start</property>
+						<child>
+							<object class="GtkButton" id="cancel_button">
+								<property name="label" translatable="yes">Cancel</property>
+								<property name="visible">True</property>
+								<property name="can-focus">True</property>
+								<property name="receives-default">True</property>
+							</object>
+							<packing>
+								<property name="expand">True</property>
+								<property name="fill">True</property>
+								<property name="position">0</property>
+							</packing>
+						</child>
+						<child>
+							<object class="GtkButton" id="save_button">
+								<property name="label" translatable="yes">Save</property>
+								<property name="visible">True</property>
+								<property name="can-focus">True</property>
+								<property name="receives-default">True</property>
+							</object>
+							<packing>
+								<property name="expand">True</property>
+								<property name="fill">True</property>
+								<property name="position">1</property>
+							</packing>
+						</child>
+					</object>
+					<packing>
+						<property name="left-attach">1</property>
+						<property name="top-attach">3</property>
+					</packing>
+				</child>
+				<child>
+					<placeholder/>
+				</child>
+			</object>
+		</child>
+	</template>
+</interface>
