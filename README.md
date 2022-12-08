@@ -1,12 +1,10 @@
 # Aurora
 
-![Aurora](https://i.imgur.com/nmvLjJt.png)
-![AuroraItem](https://i.imgur.com/Op7KpTg.png)
-![AuroraVault](https://i.imgur.com/zu8OaPa.png)
+![Aurora](https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Misc/AuroraRuby.png)
 
 ## Features
 
-* Generate an alphanumeric string with optional symbols & custom length.
+* Generate an alphanumeric string to use as password with special characters & custom length.
 * Copy to clipboard.
 * Save passwords to the vault and attach them to an issuer with name, email/username & custom notes.
 * Edit/delete saved items.
@@ -32,7 +30,7 @@
 	* `libglib2.0-bin`
 	* `libgtk-3-0`
 	* `libxml2-utils`
-	* `glade` if you want to make UI modifications.
+	* `glade` if you don't want to make UI modifications in code.
 
 ##  Socials
 
@@ -41,3 +39,7 @@
 ## LICENSE
 
 * [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+
+## Assets LICENSE
+
+* Under no means shall the visual assets of this repository – i.e., all photo-, picto-, icono-, and videographic material – (if any) be altered and/or redistributed for any independent commercial or non-commercial intent beyond its original function in this project. Permissible usage of such content is restricted solely to its express application in this repository and any forks that retain the material in its original, unaltered form only.
