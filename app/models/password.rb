@@ -88,6 +88,7 @@ module Aurora
 			end
 
 			result.to_json
+			JSON.pretty_generate(result)
 
 		end
 
