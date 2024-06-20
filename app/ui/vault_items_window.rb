@@ -8,7 +8,7 @@ module Aurora
 
 			def init
 
-				set_template resource: '/me/luki/aurora/ui/vault_items_window.ui'
+				set_template resource: '/me/luki/aurora/ui/glade/vault_items_window.ui'
 
 				bind_template_child 'add_vault_items_button'
 				bind_template_child 'vault_items_list_box'
@@ -32,7 +32,19 @@ module Aurora
 
 			end
 
+			load_css
 			load_vault_items
+
+		end
+
+		def load_css
+
+			css_file = File.expand_path('../../../resources/ui/css/styles.css', __FILE__)
+
+			css_provider = Gtk::CssProvider.new
+			css_provider.load(path: File.open(css_file).path)
+
+			add_vault_items_button.style_context.add_provider(css_provider, Gtk::StyleProvider::PRIORITY_USER)
 
 		end
 

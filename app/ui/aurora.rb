@@ -1,13 +1,6 @@
-module Aurora
+# Credits ⇝ https://iridakos.com/programming/2018/01/25/creating-a-gtk-todo-application-with-ruby
 
-=begin
-	
-	seems like it's common to write Ruby using
-	2 spaces indentation, well fuck that, that's ugly
-	I always used 4 tab size so that'll have to suffice
-	I already have enough with the snake case smh
-	
-=end
+module Aurora
 
 	class Application < Gtk::Application
 
@@ -17,11 +10,11 @@ module Aurora
 
 			super "me.luki.aurora", Gio::ApplicationFlags::FLAGS_NONE
 
-			@password_data_path = File.expand_path('~/RubyFancyStuff/Apps/Aurora/Vault/')
+			@password_data_path = File.expand_path('~/RubyStuff/Aurora/Vault/')
 
 			unless File.directory?(@password_data_path)
 
-				puts "First launch, creating password data path: #{@password_data_path}"
+				puts "First launch, creating password data path at: #{@password_data_path}"
 				FileUtils.mkdir_p(@password_data_path)
 
 			end

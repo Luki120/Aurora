@@ -8,7 +8,7 @@ module Aurora
 
 			def init
 
-				set_template resource: '/me/luki/aurora/ui/vault_item_list_box_row.ui'
+				set_template resource: '/me/luki/aurora/ui/glade/vault_item_list_box_row.ui'
 
 				bind_template_child 'vault_item_label'
 				bind_template_child 'vault_item_button'

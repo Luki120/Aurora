@@ -10,7 +10,7 @@ module Aurora
 
 			def init
 
-				set_template resource: '/me/luki/aurora/ui/configure_window.ui'
+				set_template resource: '/me/luki/aurora/ui/glade/configure_window.ui'
 
 				bind_template_child 'name_label'
 				bind_template_child 'username_label'
