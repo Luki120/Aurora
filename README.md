@@ -1,25 +1,6 @@
 # Aurora
 
-![Aurora](https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Misc/AuroraRuby.png)
-
-## Features
-
-* Generate an alphanumeric string to use as password with special characters & custom length.
-* Copy to clipboard.
-* Save passwords to the vault and attach them to an issuer with name, email/username & custom notes.
-* Edit/delete saved items.
-
-## Contributing
-
-* Contributions are more than welcomed, but should follow this etiquette:
-
-	* If you're a contributor with write access to this repository, you **should NOT** push to main branch, preferably push to a new branch and *then* create the PR.
-	* Keep commit titles short and then explain them in comments or preferably in the commit's description.
-	* Push small commits (e.g if you changed 2 directories, commit one directory, then commit the other one and only THEN push)
-
-## Credits
-
-* Based on [this](https://iridakos.com/programming/2018/01/25/creating-a-gtk-todo-application-with-ruby) great detailed article.
+<img src="Assets/AuroraRuby.png"/>
 
 ## Installing
 
@@ -35,6 +16,14 @@
 ##  Socials
 
 * [Twitter](https://twitter.com/Lukii120)
+
+## Contributing
+
+* Contributions are more than welcomed, but should follow this etiquette:
+
+	* If you're a contributor with write access to this repository, you **should NOT** push to main branch, preferably push to a new branch and *then* create the PR.
+	* Keep commit titles short and then explain them in comments or preferably in the commit's description.
+	* Push small commits (e.g if you changed 2 directories, commit one directory, then commit the other one and only THEN push)
 
 ## LICENSE
 
