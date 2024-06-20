@@ -3,8 +3,7 @@
 require 'gtk3'
 require 'fileutils'
 
-# Require all ruby files in the application folder recursively
-
+# Require all Ruby files in the application folder recursively
 application_root_path = File.expand_path(__dir__)
 Dir[File.join(application_root_path, '**', '*.rb')].each { |file| require file }
 
@@ -17,7 +16,7 @@ system("glib-compile-resources",
 		"--target", resource_bin,
 	   "--sourcedir", File.dirname(resource_xml),
 	   resource_xml)
- 
+
 resource = Gio::Resource.load(resource_bin)
 Gio::Resources.register(resource) 
 
